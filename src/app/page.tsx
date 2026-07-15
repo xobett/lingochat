@@ -1,11 +1,13 @@
-import { Button, buttonVariants } from "@heroui/react";
+import { buttonVariants } from "@heroui/react";
 import Link from "next/link";
 
 export default function Home() {
   return (
     <div>
-      <h2 className="text-2xl text-red-600">Hello and welcome to lingochat!</h2>
-      <Link href={'/members'} className={buttonVariants({variant:'primary'})}>Go to members</Link>
+      <h2 className="text-2xl font-bold text-sky-200">
+        Hello and welcome to lingochat!
+      </h2>
+      <p className="mt-2">Lingochat is an online w</p>
     </div>
   );
 }
